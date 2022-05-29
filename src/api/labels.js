@@ -2,7 +2,11 @@ import jsSHA3 from 'js-sha3'
 import { isEncodedLabelhash, decodeLabelhash } from '@ensdomains/ui'
 
 function getLabels() {
-  return JSON.parse(localStorage.getItem('labels')) || {}
+  const labels = JSON.parse(localStorage.getItem('labels')) || {}
+  return {
+    ...labels,
+    f6613a64d5e0ca03958efb56f581e097c1d9697cdc9e0554fb5185d691bdaf64: '⌐◨-◨'
+  }
 }
 
 function _saveLabel(hash, label) {
