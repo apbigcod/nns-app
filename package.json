@@ -134,8 +134,5 @@
       "Firefox ESR",
       "not ie < 11"
     ]
-  },
-  "engines": {
-    "node": "v14"
   }
 }

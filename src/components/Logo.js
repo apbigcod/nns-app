@@ -3,7 +3,7 @@ import styled from '@emotion/styled/macro'
 import { Link } from 'react-router-dom'
 import mq from 'mediaQuery'
 
-import ForeverLogo from '../assets/forever-logo.png'
+import NNSLogo from '../assets/nns-logo.png'
 import LogoTyped from '../assets/TypeLogo'
 
 const IconLogo = styled('img')`
@@ -28,7 +28,7 @@ const LogoContainer = styled(Link)`
 
 const Logo = ({ color, className, to = '' }) => (
   <LogoContainer className={className} to={to}>
-    <IconLogo src={ForeverLogo} />
+    <IconLogo src={NNSLogo} />
   </LogoContainer>
 )
 

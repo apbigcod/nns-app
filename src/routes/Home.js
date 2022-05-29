@@ -17,7 +17,7 @@ import TextBubbleDefault from '../components/Icons/TextBubble'
 import QuestionMarkDefault from '../components/Icons/QuestionMark'
 import HowToUseDefault from '../components/HowToUse/HowToUse'
 import Alice from '../components/HomePage/Alice'
-import ForeverLogo from '../components/HomePage/images/ForeverLogo.png'
+import NNSLogo from '../components/HomePage/images/NNSLogo.png'
 import { aboutPageURL } from '../utils/utils'
 import { connect, disconnect } from '../api/web3modal'
 
@@ -365,7 +365,7 @@ export default ({ match }) => {
             <LogoLarge
               initial={animation.initial}
               animate={animation.animate}
-              src={ForeverLogo}
+              src={NNSLogo}
             />
             <PermanentRegistrarLogo
               initial={animation.initial}
