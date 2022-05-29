@@ -13,7 +13,7 @@ export async function setup({
 }) {
   let option = {
     reloadOnAccountsChange,
-    enforceReadOnly,
+    enforceReadOnly: false, // TODO: fixes issues when contract is not deployed on mainnet
     enforceReload,
     customProvider,
     ensAddress

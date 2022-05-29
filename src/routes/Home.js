@@ -50,7 +50,7 @@ const Name = styled('span')`
   margin-left: 5px;
   text-transform: none;
   display: inline-block;
-  width: 100px;
+  width: 200px;
 `
 
 const NetworkStatus = styled('div')`

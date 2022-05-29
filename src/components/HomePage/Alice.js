@@ -216,7 +216,7 @@ class Explainer extends Component {
           ))}
         </div>
         <div className="hook">
-          <p>yourname.forever</p>
+          <p>yourname.⌐◨-◨</p>
         </div>
       </BaseContainer>
     )
